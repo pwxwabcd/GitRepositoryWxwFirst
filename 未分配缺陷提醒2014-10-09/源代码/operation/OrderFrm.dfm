@@ -1,0 +1,206 @@
+object OrderForm: TOrderForm
+  Left = 255
+  Top = 205
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = #23450#21046#20449#24687
+  ClientHeight = 208
+  ClientWidth = 397
+  Color = clBtnFace
+  Font.Charset = GB2312_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #23435#20307
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 12
+  object lblZNo: TLabel
+    Left = 18
+    Top = 58
+    Width = 42
+    Height = 12
+    Caption = #25163#26426#21495':'
+  end
+  object lblZContent: TLabel
+    Left = 205
+    Top = 58
+    Width = 54
+    Height = 12
+    Caption = #35746#21046#26102#38388':'
+  end
+  object bvlDept: TBevel
+    Left = 10
+    Top = 170
+    Width = 378
+    Height = 2
+  end
+  object Label1: TLabel
+    Left = 12
+    Top = 101
+    Width = 54
+    Height = 12
+    Caption = #26159#21542#38405#35835':'
+  end
+  object Label2: TLabel
+    Left = 205
+    Top = 101
+    Width = 54
+    Height = 12
+    Caption = #26159#21542#22788#29702':'
+  end
+  object Label3: TLabel
+    Left = 12
+    Top = 145
+    Width = 54
+    Height = 12
+    Caption = #24425#38083#21517#31216':'
+  end
+  object Label4: TLabel
+    Left = 205
+    Top = 145
+    Width = 54
+    Height = 12
+    Caption = #25163#26426#22411#21495':'
+  end
+  object pnlZy: TPanel
+    Left = 0
+    Top = 0
+    Width = 397
+    Height = 41
+    Align = alTop
+    Color = clWhite
+    ParentBackground = False
+    TabOrder = 5
+    object lblZy: TLabel
+      Left = 3
+      Top = 15
+      Width = 54
+      Height = 12
+      Caption = #23450#21046#20449#24687':'
+    end
+  end
+  object edtMobileNumber: TEdit
+    Left = 66
+    Top = 54
+    Width = 120
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 15
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object btnSave: TButton
+    Left = 246
+    Top = 180
+    Width = 60
+    Height = 20
+    Caption = #24050#22788#29702
+    Default = True
+    ModalResult = 1
+    TabOrder = 3
+    OnClick = btnSaveClick
+  end
+  object btnCancel: TButton
+    Left = 309
+    Top = 180
+    Width = 60
+    Height = 20
+    Cancel = True
+    Caption = #31245#21518#22788#29702
+    ModalResult = 2
+    TabOrder = 4
+    OnClick = btnCancelClick
+  end
+  object edtIsRead: TEdit
+    Left = 66
+    Top = 97
+    Width = 120
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 60
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object edtWriteTime: TEdit
+    Left = 263
+    Top = 54
+    Width = 120
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 60
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object edtIsDeal: TEdit
+    Left = 263
+    Top = 97
+    Width = 120
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 60
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object edtRingName: TEdit
+    Left = 66
+    Top = 141
+    Width = 120
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 60
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 7
+  end
+  object edtPinPai: TEdit
+    Left = 263
+    Top = 141
+    Width = 120
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 60
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 8
+  end
+  object btnCopy: TButton
+    Left = 12
+    Top = 180
+    Width = 60
+    Height = 20
+    Caption = #22797#21046
+    TabOrder = 9
+    OnClick = btnCopyClick
+  end
+end

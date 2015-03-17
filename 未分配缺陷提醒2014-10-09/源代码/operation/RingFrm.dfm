@@ -1,0 +1,260 @@
+object RingForm: TRingForm
+  Left = 92
+  Top = 179
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = #38083#22768#21457#36865
+  ClientHeight = 252
+  ClientWidth = 604
+  Color = clBtnFace
+  Font.Charset = GB2312_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #23435#20307
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 12
+  object lblZNo: TLabel
+    Left = 234
+    Top = 62
+    Width = 42
+    Height = 12
+    Caption = #25163#26426#21495':'
+  end
+  object bvlDept: TBevel
+    Left = 11
+    Top = 215
+    Width = 581
+    Height = 2
+  end
+  object Label1: TLabel
+    Left = 240
+    Top = 89
+    Width = 30
+    Height = 12
+    Caption = #27468#21517':'
+  end
+  object Label2: TLabel
+    Left = 421
+    Top = 89
+    Width = 30
+    Height = 12
+    Caption = #27468#25163':'
+  end
+  object Label3: TLabel
+    Left = 240
+    Top = 117
+    Width = 30
+    Height = 12
+    Caption = #26684#24335':'
+  end
+  object Label4: TLabel
+    Left = 421
+    Top = 117
+    Width = 30
+    Height = 12
+    Caption = #31867#22411':'
+  end
+  object Label5: TLabel
+    Left = 234
+    Top = 142
+    Width = 42
+    Height = 12
+    Caption = #22238#22797#35821':'
+  end
+  object pnlZy: TPanel
+    Left = 0
+    Top = 0
+    Width = 604
+    Height = 41
+    Align = alTop
+    Color = clWhite
+    ParentBackground = False
+    TabOrder = 4
+    object lblZy: TLabel
+      Left = 3
+      Top = 15
+      Width = 54
+      Height = 12
+      Caption = #38083#22768#21457#36865':'
+    end
+  end
+  object edtMobileNumber: TEdit
+    Left = 275
+    Top = 58
+    Width = 130
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 15
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btnSave: TButton
+    Left = 462
+    Top = 225
+    Width = 60
+    Height = 20
+    Caption = #21457#36865
+    Default = True
+    TabOrder = 2
+    OnClick = btnSaveClick
+  end
+  object btnCancel: TButton
+    Left = 525
+    Top = 225
+    Width = 60
+    Height = 20
+    Cancel = True
+    Caption = #21462#28040
+    ModalResult = 2
+    TabOrder = 3
+  end
+  object edtRingName: TEdit
+    Left = 275
+    Top = 85
+    Width = 130
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 60
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object edtRingPathWWW: TEdit
+    Left = 452
+    Top = 85
+    Width = 130
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 60
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object edtRingMobileType: TEdit
+    Left = 275
+    Top = 113
+    Width = 130
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 60
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object edtPlus: TEdit
+    Left = 452
+    Top = 113
+    Width = 130
+    Height = 20
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    MaxLength = 60
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 7
+  end
+  object mmContent: TMemo
+    Left = 275
+    Top = 142
+    Width = 308
+    Height = 64
+    TabOrder = 8
+  end
+  object GroupBox1: TGroupBox
+    Left = 18
+    Top = 48
+    Width = 207
+    Height = 161
+    Caption = #23450#21046#20449#24687
+    TabOrder = 9
+    object Label6: TLabel
+      Left = 18
+      Top = 25
+      Width = 42
+      Height = 12
+      Caption = #25163#26426#21495':'
+    end
+    object lblZContent: TLabel
+      Left = 5
+      Top = 77
+      Width = 54
+      Height = 12
+      Caption = #35746#21046#26102#38388':'
+    end
+    object Label7: TLabel
+      Left = 12
+      Top = 129
+      Width = 54
+      Height = 12
+      Caption = #24425#38083#21517#31216':'
+    end
+    object edtCopyMobileName: TEdit
+      Left = 66
+      Top = 21
+      Width = 120
+      Height = 20
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clGreen
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      MaxLength = 15
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+    object edtCopyWriteTime: TEdit
+      Left = 66
+      Top = 73
+      Width = 120
+      Height = 20
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clGreen
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      MaxLength = 60
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 1
+    end
+    object edtCopyRingName: TEdit
+      Left = 66
+      Top = 125
+      Width = 120
+      Height = 20
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clGreen
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      MaxLength = 60
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 2
+    end
+  end
+end
